@@ -1,0 +1,34 @@
+.header {
+    text-align: center;
+  }
+
+  .header-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(to bottom, #ebdcc9, #ebdcc9 50%, #fff 75%);
+    max-width: 100%;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .header-list-item {
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+  } 
+
+  .header-list-item a {
+    color: #072856;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .header-list-item a:hover {
+    color: #1151ab;
+    text-decoration: underline;
+  }
+
+
