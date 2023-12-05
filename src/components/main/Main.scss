@@ -1,4 +1,12 @@
+.wrapper {
+  margin: 0 auto;
+}
+
 .main {
     background: #fff;
     color: #000;
+  }
+
+  #services, #projects, #contacts, #about {
+    height: 100vh;
   }

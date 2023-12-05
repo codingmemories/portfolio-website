@@ -10,19 +10,19 @@ export default function Header () {
             <div>
             <ul className='header-list'>
               <li className='header-list-item'>
-                <a href='#home' target='_blank'>Home</a>
+                <a href='#home'>Home</a>
               </li>
               <li className='header-list-item'>
-                <a href='#services' target='_blank'>Services</a>
+                <a href='#services'>Services</a>
               </li>
               <li className='header-list-item'>
-                <a href='#projects' target='_blank'>Projects</a>
+                <a href='#projects'>Projects</a>
               </li>
               <li className='header-list-item'>
-                <a href='#contacts' target='_blank'>Contacts</a>
+                <a href='#contacts'>Contacts</a>
               </li>
               <li className='header-list-item'>
-                <a href='#about' target='_blank'>About</a>
+                <a href='#about'>About</a>
               </li>
             </ul>
             </div>
