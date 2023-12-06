@@ -30,6 +30,16 @@ export default function Header () {
             <div>
               <img src={logo} alt='logo' width={500} />
             </div>
+
+            <div>
+              <h2>creator | social media marketing | frontend developer</h2>
+            </div>
+
+            <div>
+              <button>
+                <a href='mailto:vlykhogodenko.pr@gmail.com' target='_blank' rel='noreferrer'>work with me</a>
+              </button>
+            </div>
           </header>
         </>
     );
