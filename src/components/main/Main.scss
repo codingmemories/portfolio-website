@@ -10,3 +10,36 @@
   #services, #projects, #contacts, #about {
     height: 100vh;
   }
+
+  #about {
+    background: #072856;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-title__block {
+    border: 1px solid #ff0000;
+    width: 50%;
+  }
+
+  .about-title__image {
+    border: 1px solid #00ff00;
+    width: 50%;
+  }
+
+  .about-title {
+    color: #fff;
+    font-size: 86px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .about-description {
+    color: #fff;
+    font-size: 20.6px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+

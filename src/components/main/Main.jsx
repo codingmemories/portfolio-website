@@ -25,8 +25,22 @@ export default function Main () {
               </section>
 
               <section id='about'>
-                <h2>About</h2>
-                <p>this about is ....</p>
+                <div className='about-title__block'>
+                <h2 className='about-title'>About Me</h2>
+                <p className='about-description'>My name is Vasylyna Lykhogodenko, and I'm a certified SMM specialist. 
+                  I graduated from the International Technical University, majoring in "Philology", 
+                  and foreign languages.
+                  I currently work as a self-employed social media marketing specialist, offering 
+                  online marketing management to companies. My goal is to assist clients in achieving 
+                  their corporate objectives while also having a significant impact on various facets 
+                  of digital marketing.
+                </p>
+                </div>
+
+                <div className='about-title__image'>
+                  <img src='' alt='vasylyna lykhogodenko' />
+                  <h3>social media marketing</h3>
+                </div>
               </section>
 
             </main>
