@@ -1,5 +1,5 @@
 
-
+import avatar from '../../assets/image/avatar.png';
 import './Main.scss';
 
 export default function Main () {
@@ -25,7 +25,7 @@ export default function Main () {
               </section>
 
               <section id='about'>
-                <div className='about-title__block'>
+                <div className='about__text-section'>
                 <h2 className='about-title'>About Me</h2>
                 <p className='about-description'>My name is Vasylyna Lykhogodenko, and I'm a certified SMM specialist. 
                   I graduated from the International Technical University, majoring in "Philology", 
@@ -37,9 +37,9 @@ export default function Main () {
                 </p>
                 </div>
 
-                <div className='about-title__image'>
-                  <img src='' alt='vasylyna lykhogodenko' />
-                  <h3>social media marketing</h3>
+                <div className='about__image-section'>
+                  <img className='about-image' src={avatar} alt='vasylyna lykhogodenko' width={200} />
+                  <h3 className='about-profession'>social media marketing</h3>
                 </div>
               </section>
 

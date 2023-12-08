@@ -18,13 +18,11 @@
     align-items: center;
   }
 
-  .about-title__block {
-    border: 1px solid #ff0000;
+  .about__text-section {
     width: 50%;
   }
 
-  .about-title__image {
-    border: 1px solid #00ff00;
+  .about__image-section {
     width: 50%;
   }
 
@@ -33,6 +31,9 @@
     font-size: 86px;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin: 4px 0;
   }
 
   .about-description {
@@ -40,6 +41,24 @@
     font-size: 20.6px;
     font-weight: 400;
     font-style: normal;
+    max-width: 40rem;
+    margin-left: auto;
+    padding: 20px;
   }
+
+.about-image {
+  margin: 0 auto;
+  display: flex;
+  padding: 25px 0;
+}
+
+.about-profession {
+  display: block;
+  text-align: center;
+  padding: 0 65px;
+  text-transform: capitalize;
+  color: #e9dada;
+  letter-spacing: 0.2rem;
+}
 
 
