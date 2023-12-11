@@ -1,4 +1,5 @@
 
+import circle from '../../assets/svg/circle.svg';
 import avatar from '../../assets/image/avatar.png';
 import './Main.scss';
 
@@ -39,6 +40,7 @@ export default function Main () {
 
                 <div className='about__image-section'>
                   <img className='about__image' src={avatar} alt='vasylyna lykhogodenko' width={200} />
+                  <img className='about__svg-circle' src={circle} alt='circle' />
                   <h3 className='about__profession'>social media marketing</h3>
                 </div>
               </section>

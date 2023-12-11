@@ -3,8 +3,8 @@
 }
 
 .main {
-    background: #fff;
-    color: #000;
+    background: #f8f4f4;
+    color: #0c0b0b;
   }
 
   #services, #projects, #contacts, #about {
@@ -26,17 +26,17 @@
 }
 
 .about__title {
-  color: #fff;
+  color: #f8f4f4;
   font-family: 'Hedvig Letters Serif', serif;
   font-size: 86px;
   font-weight: 400;
   font-style: normal;
   margin-left: auto;
-  padding: 0px 20px;
+  padding: 0px 25px;
 }
 
 .about__description {
-  color: #fff;
+  color: #f8f4f4;
   font-family: 'Hedvig Letters Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -44,17 +44,26 @@
   letter-spacing: 0.1rem;
   line-height: 2rem;
   margin-left: auto;
-  padding: 0px 20px;
+  padding: 0px 25px;
 }
 
 .about__image-section {
   flex: 1;
+  position: relative;
 }
 
 .about__image {
   display: block;
   margin: 0 auto;
   width: 35%;
+}
+
+.about__svg-circle {
+  position: absolute;
+  top: -12rem;
+  right: -13rem;
+  z-index: 1;
+  width: 70rem;
 }
 
 .about__profession {
