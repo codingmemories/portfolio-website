@@ -35,15 +35,31 @@
   .header__logo-info {
     background: linear-gradient(to top, rgba(2,0,36,1) 0%, rgb(255, 255, 255) 65%);
     height: inherit;
+    background-image: url('../../assets/image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
   }
 
   .header__title {
     font-family: 'The Nautigal', cursive;
     text-transform: capitalize;
+    font-size: 10rem;
+    font-weight: 600;
+    color: #072856;
   }
 
-  .header-description {
+  .header__title-name {
+    text-transform: uppercase;
+    font-size: 10rem;
+    font-weight: 600;
+  }
+
+  .header__description {
     font-family: 'Hedvig Letters Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
   }
 
 
