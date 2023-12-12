@@ -36,8 +36,13 @@ export default function Main () {
                 <p className='about__description'>My name is Vasylyna Lykhogodenko, and I'm a certified SMM specialist. 
                   I graduated from the International Technical University, majoring in "Philology", 
                   and foreign languages.
+                </p>
+                <p className='about__description'>
                   I currently work as a self-employed social media marketing specialist, offering 
-                  online marketing management to companies. My goal is to assist clients in achieving 
+                  online marketing management to companies.
+                </p>
+                <p className='about__description'>
+                  My goal is to assist clients in achieving 
                   their corporate objectives while also having a significant impact on various facets 
                   of digital marketing.
                 </p>
