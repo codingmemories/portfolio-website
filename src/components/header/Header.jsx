@@ -1,5 +1,5 @@
 
-import logo from '../../assets/logo/logo.png';
+
 import './Header.scss';
 
 export default function Header () {
@@ -27,15 +27,9 @@ export default function Header () {
             </ul>
             </div>
 
-            <div>
-              <img src={logo} alt='logo' width={500} />
-            </div>
-
-            <div>
-              <h2>creator | social media marketing | frontend developer</h2>
-            </div>
-
-            <div>
+            <div className='header__logo-info'>
+              <h1 className='header__title'>vl marketing</h1>
+              <h2 className='header__description'>creator | social media marketing | frontend developer</h2>
               <button>
                 <a href='mailto:vlykhogodenko.pr@gmail.com' target='_blank' rel='noreferrer'>work with me</a>
               </button>

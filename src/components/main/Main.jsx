@@ -1,4 +1,7 @@
 
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
+
 import circle from '../../assets/svg/circle.svg';
 import avatar from '../../assets/image/avatar.png';
 import './Main.scss';
@@ -8,6 +11,8 @@ export default function Main () {
     return (
         <>
             <div className='wrapper'>
+            <Header />
+
             <main className="main">
               
               <section id='services'>
@@ -40,12 +45,14 @@ export default function Main () {
 
                 <div className='about__image-section'>
                   <img className='about__image' src={avatar} alt='vasylyna lykhogodenko' width={200} />
-                  <img className='about__svg-circle' src={circle} alt='circle' />
+                  <img className='about__svg-circle' src={circle} alt='circle' width={900} />
                   <h3 className='about__profession'>social media marketing</h3>
                 </div>
               </section>
 
             </main>
+
+            <Footer />
             </div>
         </>
     );
