@@ -73,8 +73,8 @@
     background-color: #072856;
     border: none;
     border-radius: 50px;
-    width: 11rem;
-    height: 4rem;
+    width: 12rem;
+    height: 3rem;
     cursor: pointer;
     transition: all 0.4s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -91,9 +91,10 @@
 
   .header__button a {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+    text-transform: uppercase;
   }
 
   
