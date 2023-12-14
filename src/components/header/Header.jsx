@@ -1,4 +1,5 @@
 
+import Brief from '../brief/Brief';
 
 import './Header.scss';
 
@@ -13,7 +14,7 @@ export default function Header () {
                 <a href='#home'>Home</a>
               </li>
               <li className='header-list-item'>
-                <a href='#services'>Services</a>
+                {<button onClick={() => Brief.openForm()}>Services</button> ? <Brief /> : false}
               </li>
               <li className='header-list-item'>
                 <a href='#projects'>Projects</a>

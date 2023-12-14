@@ -1,4 +1,5 @@
 
+
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 
@@ -14,11 +15,6 @@ export default function Main () {
             <Header />
 
             <main className="main">
-              
-              <section id='services'>
-                <h2>Services</h2>
-                <p>this services is ....</p>
-              </section>
 
               <section id='projects'>
                 <h2>Projects</h2>
