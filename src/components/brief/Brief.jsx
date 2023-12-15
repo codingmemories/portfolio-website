@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import './Brief.scss';
 
-const Brief = () => {
+export default function Brief () {
   const [formOpened, setFormOpened] = useState(false);
 
   useEffect(() => {
@@ -31,5 +31,3 @@ const Brief = () => {
     </div>
   );
 };
-
-export default Brief;

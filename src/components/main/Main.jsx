@@ -1,6 +1,7 @@
 
 
 import Header from '../header/Header';
+import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
 
 import circle from '../../assets/svg/circle.svg';
@@ -20,11 +21,7 @@ export default function Main () {
                 <h2>Projects</h2>
                 <p>this projects is ....</p>
               </section>
-
-              <section id='contacts'>
-                <h2>Contacts</h2>
-                <p>this contacts is ....</p>
-              </section>
+            <Contact />
 
               <section id='about'>
                 <div className='about__text-section'>
