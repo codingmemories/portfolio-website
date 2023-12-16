@@ -1,20 +1,16 @@
 
 
-import Header from '../header/Header';
-import Contact from '../contact/Contact';
-import Footer from '../footer/Footer';
+import Contact from '../Contact/Contact';
 
 import circle from '../../assets/svg/circle.svg';
 import avatar from '../../assets/image/avatar.png';
+
 import './Main.scss';
 
 export default function Main () {
 
     return (
         <>
-            <div className='wrapper'>
-            <Header />
-
             <main className="main">
 
               <section id='projects'>
@@ -49,9 +45,6 @@ export default function Main () {
               </section>
 
             </main>
-
-            <Footer />
-            </div>
         </>
     );
 };

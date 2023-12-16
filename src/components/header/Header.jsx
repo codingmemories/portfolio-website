@@ -1,5 +1,5 @@
 
-import Brief from '../brief/Brief';
+import Brief from '../Brief/Brief';
 
 import './Header.scss';
 
@@ -7,7 +7,6 @@ export default function Header () {
     return (
         <>
           <header className='header'>
-            
             <div>
             <ul className='header-list'>
               <li className='header-list-item'>
