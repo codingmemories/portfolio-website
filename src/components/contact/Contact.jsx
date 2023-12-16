@@ -1,13 +1,13 @@
 import React from 'react';
 
-import './Contacts.scss';
+import './Contact.scss';
 
 export default function Contact () {
   
     return (
     <>
-            <section id='contacts'>
-                <h2 className='contacts__title'>Connect with us:</h2>
+            <section id='contact'>
+                <h2 className='contact__title'>Connect with us:</h2>
                 <ul className='contact__list'>
                     <li className='contact__list-item'>
                       <a href='https://www.instagram.com/lykhogodenko.smm' target='_blank' rel='noreferrer'>@lykhogodenko.smm</a>

@@ -20,7 +20,7 @@ export default function Header () {
                 <a href='#projects'>Projects</a>
               </li>
               <li className='header-list-item'>
-                <a href='#contacts'>Contacts</a>
+                <a href='#contact'>Contact with me</a>
               </li>
               <li className='header-list-item'>
                 <a href='#about'>About</a>
