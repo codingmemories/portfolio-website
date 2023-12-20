@@ -1,1 +1,83 @@
-
+/* section about styles for both desktop and mobile */
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,40,86,1) 100%);
+  }
+  
+  .about__text-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about__title {
+    color: #f8f4f4;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 86px;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: auto;
+    padding: 0px 25px;
+  }
+  
+  .about__description {
+    color: #f8f4f4;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin-left: auto;
+    padding: 0px 25px;
+  }
+  
+  .about__image-section {
+    flex: 1;
+    position: relative;
+  }
+  
+  .about__image {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+  }
+  
+  .about__svg-circle {
+    position: absolute;
+    top: -12rem;
+    right: -13rem;
+    z-index: 1;
+    width: 70rem;
+  }
+  
+  .about__profession {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #e9dada;
+    letter-spacing: 0.2rem;
+  }
+  
+  /* Styles for desktop */
+  @media (min-width: 768px) {
+    .about__text-section {
+      margin-right: 40px;
+    }
+  }
+  
+  /* Styles for mobile */
+  @media (max-width: 767px) {
+    #about {
+      flex-direction: column;
+    }
+  
+    .about__text-section,
+    .about__image-section {
+      width: 100%;
+      margin-right: 0;
+    }
+  }

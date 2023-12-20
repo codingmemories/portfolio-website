@@ -8,7 +8,8 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    background: linear-gradient(to bottom, #072856, #072856 50%, #fff 75%);
+    background: #072856;
+    border-radius: 5px;
     max-width: 100%;
     margin: 0;
     padding: 20px 0;
@@ -28,7 +29,7 @@
   }
 
   .header-list-item a:hover {
-    color: #1151ab;
+    color: #a8c3e9;
     text-decoration: underline;
   }
 
