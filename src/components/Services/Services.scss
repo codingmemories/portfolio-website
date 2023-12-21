@@ -1,0 +1,24 @@
+#services {
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    background: #343857;
+    color: #f1f1f1;
+
+   .services__title {
+
+   }
+
+   .services__item {
+     display: inline-block;
+     justify-content: center;
+   }
+
+   .services__quiz-title {
+     font-weight: 600;
+   }
+
+    .services__quiz-form {
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+}

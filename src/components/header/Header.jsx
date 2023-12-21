@@ -31,7 +31,8 @@ export default function Header () {
               <h1 className='header__title'><span className='header__title-name'>vl</span> marketing</h1>
               <h2 className='header__description'>creator | social media marketing | frontend developer</h2>
               <button className='header__button'>
-                <a href='mailto:vlykhogodenko.pr@gmail.com' target='_blank' rel='noreferrer'>work with me</a>
+              <a href='#services'>work with me</a>
+                {/* <a href='mailto:vlykhogodenko.pr@gmail.com' target='_blank' rel='noreferrer'>work with me</a> */}
               </button>
             </div>
           </header>
