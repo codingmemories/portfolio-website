@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <>
         <section id='services'>
-            <h2 className='services1__title'>What assistance can I provide for you?</h2>
+            <h2 className='services__title'>What assistance can I provide for you?</h2>
             <p className='services__item'>creator</p>
             <p className='services__item'>social media marketing</p>
             <p className='services__item'>frontend developer</p>
